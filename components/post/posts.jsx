@@ -29,7 +29,7 @@ function Post({ post }) {
           <Link href="/user/[userId]" as={`/user/${user._id}`}>
             <a style={{ display: 'inline-flex', alignItems: 'center' }}>
               <img width="27" height="27" style={{ borderRadius: '50%', objectFit: 'cover', marginRight: '0.3rem' }} src={user.profilePicture} alt={user.name} />
-              <b>{user.name}</b>
+              <b>---{user.name}</b>
             </a>
           </Link>
         )}
