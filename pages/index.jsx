@@ -32,7 +32,7 @@ const IndexPage = () => {
         <h3>
           All posts from the Web
           {' '}
-          <span role="img" aria-label="Earth">🌎</span>
+          <span role="img" aria-label="Earth">🌎 Moon</span>
         </h3>
         <PostEditor />
         <Posts />
